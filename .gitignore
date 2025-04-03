@@ -31,7 +31,7 @@ docker-compose.override.yml
 docker-compose.debug.yml
 docker-compose.*
 .dockerignore
-Dockerfile
+
 docker/db-data/
 docker/nginx/
 
