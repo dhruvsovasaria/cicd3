@@ -1,0 +1,52 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.DS_Store
+
+# Logs
+logs/
+*.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build output
+dist/
+build/
+.next/
+out/
+.cache/
+
+# Docker
+docker-compose.override.yml
+docker-compose.debug.yml
+docker-compose.*
+.dockerignore
+Dockerfile
+docker/db-data/
+docker/nginx/
+
+# GitHub Actions
+.github/workflows/*.log
+
+# VS Code settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc
+coverage/
+*.pid
+*.seed
+*.sqlite
+``
